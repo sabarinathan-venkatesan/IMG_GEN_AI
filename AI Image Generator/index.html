@@ -1,0 +1,54 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Image Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Image Generator</h1>
+    <form id="image-form">
+      <input type="text" id="prompt" placeholder="Enter a prompt (e.g., 'a cat in space')" required>
+      <button type="submit">Generate Image</button>
+    </form>
+    <div id="image-container">
+      <img id="generated-image" src="" alt="Generated Image">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Image Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>AI Image Generator</h1>
+      <p>Turn your imagination into reality. Enter a prompt and let the AI create stunning images for you!</p>
+    </div>
+    <form id="image-form">
+      <input type="text" id="prompt" placeholder="Enter a prompt (e.g., 'a cat in space')" required>
+      <button type="submit">Generate Image</button>
+    </form>
+    <div id="image-container">
+      <img id="generated-image" src="" alt="Generated Image">
+      <div id="loading" class="hidden">
+        <div class="spinner"></div>
+        <p>Generating your image...</p>
+      </div>
+    </div>
+    <button id="download-button" class="hidden">Download Image</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
